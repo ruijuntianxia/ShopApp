@@ -1,0 +1,11 @@
+F:\JUN\project\WEB\ShopApp\ShopApp\bin\Release\netcoreapp2.0\ShopApp.deps.json
+F:\JUN\project\WEB\ShopApp\ShopApp\bin\Release\netcoreapp2.0\ShopApp.runtimeconfig.json
+F:\JUN\project\WEB\ShopApp\ShopApp\bin\Release\netcoreapp2.0\ShopApp.runtimeconfig.dev.json
+F:\JUN\project\WEB\ShopApp\ShopApp\bin\Release\netcoreapp2.0\ShopApp.dll
+F:\JUN\project\WEB\ShopApp\ShopApp\bin\Release\netcoreapp2.0\ShopApp.pdb
+F:\JUN\project\WEB\ShopApp\ShopApp\obj\Release\netcoreapp2.0\ShopApp.csproj.CoreCompileInputs.cache
+F:\JUN\project\WEB\ShopApp\ShopApp\obj\Release\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+F:\JUN\project\WEB\ShopApp\ShopApp\obj\Release\netcoreapp2.0\ShopApp.AssemblyInfoInputs.cache
+F:\JUN\project\WEB\ShopApp\ShopApp\obj\Release\netcoreapp2.0\ShopApp.AssemblyInfo.cs
+F:\JUN\project\WEB\ShopApp\ShopApp\obj\Release\netcoreapp2.0\ShopApp.dll
+F:\JUN\project\WEB\ShopApp\ShopApp\obj\Release\netcoreapp2.0\ShopApp.pdb

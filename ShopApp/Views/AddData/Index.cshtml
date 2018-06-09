@@ -1,0 +1,90 @@
+﻿@model IEnumerable<ShopApp.Models.DataViewModels.AddDataViewModel>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    <a asp-action="Create">Create New</a>
+    <a asp-action="UploadFiles">UploadFiles</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.classify)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.brand)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.model)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.modelmum)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.imageurl)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.remark)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.createuser)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.createdate)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.updateuser)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.updatedate)
+                </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.classify)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.brand)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.model)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.modelmum)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.imageurl)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.remark)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.createuser)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.createdate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.updateuser)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.updatedate)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.id">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.id">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.id">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

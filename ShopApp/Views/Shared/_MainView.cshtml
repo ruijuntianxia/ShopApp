@@ -1,0 +1,18 @@
+﻿@using Microsoft.AspNetCore.Identity
+@using ShopApp.Models
+
+@inject SignInManager<ApplicationUser> SignInManager
+@inject UserManager<ApplicationUser> UserManager
+
+@if (SignInManager.IsSignedIn(User))
+{
+
+    <ul class="nav navbar-nav">
+        <li><a asp-area="" asp-controller="AddData" asp-action="Index">AddData</a></li>
+        <li><a asp-area="" asp-controller="Home" asp-action="About">About</a></li>
+        <li><a asp-area="" asp-controller="Home" asp-action="Contact">Contact</a></li>
+    </ul>
+
+}
+
+
